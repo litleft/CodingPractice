@@ -13,6 +13,7 @@
                 "-o",
                 "${fileDirname}/build/${fileBasenameNoExtension}",
                 "-fexec-charset=GBK",
+                "-std=c++11",
             ],
             "options": {
                 "cwd": "${fileDirname}/build"
