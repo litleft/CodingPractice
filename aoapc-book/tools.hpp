@@ -16,6 +16,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <functional>
 
 #define REP(i, n) for (int i = 0; i < (int)(n); i++)
 #define FOR(i, a, b) for (int i = (int)(a); i <= (int)(b); i++)
