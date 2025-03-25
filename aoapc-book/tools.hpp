@@ -26,3 +26,6 @@
 
 using namespace std;
 
+using uint_64 = unsigned long long;
+using int_64 = long long;
+using uint = unsigned int;
