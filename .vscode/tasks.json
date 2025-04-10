@@ -8,6 +8,7 @@
             "label": "C/C++: g++ build active file",
             "command": "g++",
             "args": [
+                "-Wl,--stack,16777216",
                 "-g",
                 "${file}",
                 "-o",
