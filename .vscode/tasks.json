@@ -15,6 +15,7 @@
                 "${fileDirname}/build/${fileBasenameNoExtension}",
                 "-fexec-charset=GBK",
                 "-std=c++11",
+                "-I${workspaceFolder}/aoapc-book",
             ],
             "options": {
                 "cwd": "${fileDirname}/build"
