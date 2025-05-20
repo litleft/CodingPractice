@@ -20,11 +20,12 @@
 #include <functional>
 #include <limits>
 
-#define REP(i, n) for (int i = 0; i < (int)(n); i++)
-#define FOR(i, a, b) for (int i = (int)(a); i <= (int)(b); i++)
-#define FORD(i, a, b) for (int i = (int)(a); i >= (int)(b); i--)
-#define EPS 1e-5
-#define FLOAT_EQ(a, b) (abs(a - b) < EPS)
+#define REP(i, n) for (int (i) = 0; (i) < (int)(n); (i)++)
+#define FOR(i, a, b) for (int (i) = (int)(a); (i) <= (int)(b); (i)++)
+#define FORD(i, a, b) for (int (i) = (int)(a); (i) >= (int)(b); (i)--)
+
+constexpr double eps = 1e-5;
+template<class T> auto eq_float(T left, T right) -> bool { return abs(left - right) < eps; }
 
 using namespace std;
 

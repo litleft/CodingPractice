@@ -8,6 +8,9 @@
             "label": "C/C++: g++ build active file",
             "command": "g++",
             "args": [
+                "-Wextra",
+                "-Wall",
+                "-Wno-return-local-addr",
                 "-Wl,--stack,16777216",
                 "-g",
                 "${file}",
